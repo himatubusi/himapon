@@ -1,0 +1,247 @@
+.navi {
+  background-color: #222222;
+}
+.web-navi {
+  color: #ece4e4;
+  text-decoration: none;
+}
+.li {
+  margin: 0;
+  padding: 5%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*-------------header-----------------*/
+h1 {
+  /*線の種類（二重線）太さ 色*/
+  border-bottom: double 5px #FFC778;
+  font-size: 25px;
+}
+h2 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 25px;
+}
+h3 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 25px;
+}
+h4 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 25px;
+}
+h5 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 25px;
+}
+h6 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  font-size: 25px;
+}
+ ol {
+  background: #fcfcfc;/*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+  border: solid 3px gray;/*線の種類 太さ 色*/
+}
+
+ ol li {
+  line-height: 1.5; /*文の行高*/
+  padding: 0.5em 0; /*前後の文との余白*/
+}
+p {
+  font-size: 20px;
+  padding: 3%;
+}
+/* ふきだし */
+.fuki {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+}
+.fuki .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: #FFF;
+  color: #95ccff;
+  font-weight: bold;
+}
+.fuki p {
+  margin: 0; 
+  padding: 0;
+}
+/* ふきだし */
+/* めくれた */
+.kagi{
+  position: relative;
+  background: #fff0cd;
+  box-shadow: 0px 0px 0px 5px #fff0cd;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+.kagi:after{
+  position: absolute;
+  content: '';
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: #ffdb88 #fff #ffdb88;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.kagi p {
+  margin: 0; 
+  padding: 0;
+}
+/* めくれた */
+.meigen{
+  margin:2em 0;
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 2px #ffcb8a;
+  border-radius: 3px 0 3px 0;
+}
+.meigen:before,.meigen:after
+{
+  content: '';
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border: solid 2px #ffcb8a;
+  border-radius: 50%;
+}
+.meigen:after {
+  top:-12px;
+  left:-12px;
+}
+.meigen:before {
+  bottom:-12px;
+  right:-12px;
+}
+.meigen p {
+  margin: 0; 
+  padding: 0;
+}
+.main {
+  padding: 3%;
+  margin: 3%;
+}
+.pick {
+  background: linear-gradient(transparent 80% ,#ff6 30%);
+}
+.kako {
+  position: relative;
+  padding:0.25em 1em;
+}
+.kako:before,.kako:after{ 
+  content:'';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+.kako:before{
+  border-left: solid 1px #5767bf;
+  border-top: solid 1px #5767bf;
+  top:0;
+  left: 0;
+}
+.kako:after{
+  border-right: solid 1px #5767bf;
+  border-bottom: solid 1px #5767bf;
+  bottom:0;
+  right: 0;
+}
+.kako p {
+  margin: 0; 
+  padding: 0;
+}
+
+/* --------------main---------------- */
+.my {
+  text-align: center;
+}
+.imim {
+  text-align: center;
+  padding: 3%;
+  margin: 3%;
+}
+.pro {
+  padding: 3%;
+}
+.pupu {
+  text-align: center;
+}
+
+/* プロフィール */
+.pro {
+  text-align: center;
+  padding: 3%;
+}
+.ho {
+  padding: 0;
+  color: rgb(219, 232, 49);
+  font-size: 22px;
+  text-decoration: none;
+}
+.hoho {
+  text-align: center;
+}
+.blog {
+  text-align: center;
+  font-size: 23px;
+  padding: 3%;
+  margin: 3%;
+  color: rgb(34, 134, 215);
+}
+footer {
+  background-color: rgb(88, 87, 100);
+  padding: 10%;
+}
+.toi {
+  padding: 5%;
+  text-align: center;
+}
+.to {
+  color: rgb(181, 238, 37);
+  font-size: 16px;
+  text-decoration: none;
+}
+.map {
+  text-align: center;
+  padding: 5%;
+}
+.site {
+  color: rgb(247, 139, 23);
+  font-size: 16px;
+  text-decoration: none;
+}
+/*-------------footer------------- */
