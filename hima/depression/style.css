@@ -1,0 +1,117 @@
+.navi {
+  background-color: #222222;
+}
+.web-navi {
+  color: #ece4e4;
+  text-decoration: none;
+}
+.li {
+  margin: 0;
+  padding: 5%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*-------------header-----------------*/
+h1 {
+  font-size: 30px;
+  padding: 3%;
+   margin: 5%;
+}
+h2 {
+  font-size: 25px;
+  padding: 5%;
+  margin: 5%;
+}
+h3 {
+  font-size: 25px;
+  padding: 3%;
+  margin: 5%;
+}
+h4 {
+  font-size: 25px;
+  padding: 3%;
+  margin: 5%;
+}
+h5 {
+  font-size: 25px;
+  padding: 3%;
+  margin: 5%;
+}
+/* タイトル */
+.imim {
+  text-align: center;
+}
+/* 写真 */
+.main {
+  padding: 3%;
+}
+p {
+  padding: 5%;
+  margin: 5%;
+  font-size: 20px;
+}
+ol {
+  border-style: dotted;
+  margin: 5%;
+}
+.li {
+  padding: 3%;
+  font-size: 25px;
+}
+li {
+  padding: 3%;
+}
+.s {
+  font-size: 23px;
+  padding: 5%;
+  margin: 5%;
+}
+/* main */
+.pro {
+  padding: 3%;
+}
+.pupu {
+  text-align: center;
+}
+/* プロフィール */
+.ho {
+  padding: 0;
+  color: rgb(219, 232, 49);
+  font-size: 22px;
+  text-decoration: none;
+}
+.hoho {
+  text-align: center;
+}
+.blog {
+  text-align: center;
+  font-size: 23px;
+  padding: 3%;
+  margin: 3%;
+  color: rgb(34, 134, 215);
+}
+footer {
+  background-color: rgb(88, 87, 100);
+  padding: 10%;
+}
+.toi {
+  padding: 5%;
+  text-align: center;
+}
+.to {
+  color: rgb(181, 238, 37);
+  font-size: 16px;
+  text-decoration: none;
+}
+.map {
+  text-align: center;
+  padding: 5%;
+}
+.site {
+  color: rgb(247, 139, 23);
+  font-size: 16px;
+  text-decoration: none;
+}
+/*-------------footer------------- */
