@@ -1,0 +1,89 @@
+.navi {
+  background-color: #222222;
+}
+.web-navi {
+  color: #ece4e4;
+  text-decoration: none;
+}
+.li {
+  margin: 0;
+  padding: 5%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*-------------header-----------------*/
+h1 {
+  padding: 5% 0 5% 0;
+  font-size: 25px;
+}
+.img {
+  padding: 10% 0 0 10%;
+}
+.message {
+  padding: 5% 0 5% 7%;
+}
+.a {
+  padding: 5% 0 5% 7%;
+}
+.mm {
+  padding: 10% 0 15% 0;
+}
+.li {
+  padding: 3%;
+}
+.m {
+  padding: 15% 0 5% 10%;
+}
+h2 {
+  font-size: 20px;
+}
+.end {
+  padding: 3% 0 3% 0;
+}
+/* main */
+.pro {
+  padding: 3%;
+  margin: 0 10% 10% 28%;
+}
+/* プロフィール */
+.ho {
+  padding: 0;
+  color: rgb(219, 232, 49);
+  font-size: 22px;
+  text-decoration: none;
+}
+.hoho {
+  text-align: center;
+}
+.blog {
+  text-align: center;
+  font-size: 23px;
+  padding: 3%;
+  margin: 3%;
+  color: rgb(34, 134, 215);
+}
+footer {
+  background-color: rgb(88, 87, 100);
+  padding: 10%;
+}
+.toi {
+  padding: 5%;
+  text-align: center;
+}
+.to {
+  color: rgb(181, 238, 37);
+  font-size: 16px;
+  text-decoration: none;
+}
+.map {
+  text-align: center;
+  padding: 5%;
+}
+.site {
+  color: rgb(247, 139, 23);
+  font-size: 16px;
+  text-decoration: none;
+}
+/*-------------footer------------- */
